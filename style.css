@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 25vh;
+    padding: 0 3rem;
+    font-family: 'Josefin Slab', serif;
+    background-color: #f9F5F0;
+}
+
+
+/* utility class */
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    gap: 4em;
+}
+
+.flexed-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2em
+}
+
+
+
+/* navbar */
+nav {
+    background-color: rgb(108,20,12, 0.2);
+    padding: 1.5em 3em;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #6a1709;
+    font-weight: 900px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
+/* header */
+.header {
+    text-align: center;
+    margin: 5vh 50vh;
+}
+
+/* left column */
+.left-col {
+    flex: 1;
+    text-align: center;
+    height: fit-content;
+    border: solid 3px #6a1709;
+    border-radius: 15px;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #ce8b76;
+}
+
+.name {
+    padding: 2em;
+    color:#6a1709;
+}
+
+
+
+/* right column */
+.right-col {
+    flex: 2;
+}
+
+span {
+    margin: 5px;
+}
+
+.friend-box {
+    padding: 3em;
+    margin: 0em 0em 3em 0em;
+    border: solid 3px #6a1709;
+    border-radius: 15px;
+}
+
+.friend-box-upper {
+    margin: 20px;
+}
+
+button {
+    font-size: 1em;
+    font-weight: lighter;
+    padding: 0.2em 1em;
+    background-color: rgb(108,20,12, 0.2);
+    border: 1px solid #ce8b76;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px #ce8b76;
+}
+
+button:hover {
+    background-color: #ce8b76;
+}
